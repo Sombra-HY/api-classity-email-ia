@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+venv/
+env/
+../.venv/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# FastAPI / Uvicorn temp files
+*.pid
+# modelo de ia
+app/ml/*
+
+!app/ml/create_model.py
+!app/ml/emails_classificacao_200.csv
+!app/ml/test.py

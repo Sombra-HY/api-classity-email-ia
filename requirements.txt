@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+python-multipart
+nltk
+scikit-learn
+requests
+pandas
+torch
+transformers
+datasets
+tqdm
+accelerate
