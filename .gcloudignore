@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.pkl
+*.csv
+*.ipynb
+
+app/ml/*
+!app/ml/create_model.py
+!app/ml/emails_classificacao_200.csv
+!app/ml/test.py

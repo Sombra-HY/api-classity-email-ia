@@ -3,8 +3,12 @@ from fastapi import APIRouter, UploadFile, File, Form
 from app.exceptions.custom_exceptions import FileTooLargeError, InvalidFileTypeError
 from app.schemas.email_schema import FileResponseDTO, TextResponseDTO
 from app.services.classity_email_service import EmailClassificationService
-
+from fastapi.middleware.cors import CORSMiddleware
 router = APIRouter(prefix="/classity-email", tags=["Email Classification"])
+
+
+
+
 
 allowed_types = ["application/pdf", "text/plain"]
 max_size = 1_000_000  # 1 MB
